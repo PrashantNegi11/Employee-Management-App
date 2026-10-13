@@ -2,7 +2,6 @@ import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import EmployeeTable from './Components/EmployeeTable';
 import EmployeeModal from './Components/EmployeeModal';
-export const backendUrl = "http://localhost:3000/api/employee";
 
 function App() {
 
